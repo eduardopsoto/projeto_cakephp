@@ -1,0 +1,1807 @@
+2012-02-25 19:11:16 Error: [MissingControllerException] Controller class EduardowebController could not be found.
+#0 C:\xampp\htdocs\Eduardoweb\cakephp2012\curso_assando2012\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:12:42 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:12:49 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:13:40 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:13:45 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:13:52 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:14:03 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:14:07 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:14:13 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\home.ctp.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName('home.ctp')
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render('home.ctp', NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\PagesController.php(73): Controller->render('home.ctp')
+#3 [internal function]: PagesController->display('home.ctp')
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-02-28 01:15:12 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\test.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName('test')
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render('test', NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\PagesController.php(73): Controller->render('test')
+#3 [internal function]: PagesController->display('test')
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-02-28 01:15:19 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-28 01:15:25 Error: [MissingActionException] Action PagesController::teste() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-28 01:15:39 Error: [MissingControllerException] Controller class Pagin2aController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:17:56 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\testando\a\pagina.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName('testando/a/pagi...')
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render('testando/a/pagi...', NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\PagesController.php(73): Controller->render('testando/a/pagi...')
+#3 [internal function]: PagesController->display('testando', 'a', 'pagina')
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-02-28 01:22:05 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 01:22:16 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-02-29 03:03:27 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:04:09 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:04:11 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:10:22 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:10:24 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:13:51 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:14:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:20:54 Error: [MissingControllerException] Controller class Style.cssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:21:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:21:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:21:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:23:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:23:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:24:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:24:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:24:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:24:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:24:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:24:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:24:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:25:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:30:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:33:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:33:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:33:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:33:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:33:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:35:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:35:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:37:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:37:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:37:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:37:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:38:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:38:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:38:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:38:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:38:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:38:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:39:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:39:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:39:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:39:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:42:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:42:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:43:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:43:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:43:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:43:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:44:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:44:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:44:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:44:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:46:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:46:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:48:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:48:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:48:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:48:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:49:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:49:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:49:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:49:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:49:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:49:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:49:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:51:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:53:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:53:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:55:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:55:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:56:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:56:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:56:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:57:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:57:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:58:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:58:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:58:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 03:58:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:00:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:00:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:00:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:00:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:01:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:01:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:02:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:04:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:05:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:05:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:08:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:08:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:09:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:09:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:09:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:09:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:10:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:10:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:10:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:10:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:11:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:11:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:13:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:13:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:13:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:13:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:14:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:14:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:14:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:14:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:15:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:15:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:15:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:15:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:15:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:15:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:16:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:16:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:17:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:17:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:19:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:19:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:19:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:19:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:19:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:19:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:20:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:20:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:20:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:21:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:21:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:21:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:21:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:22:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:23:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:23:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:24:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:24:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:25:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:25:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:25:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:25:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:26:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:26:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:26:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:26:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:27:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:27:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:27:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:27:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:27:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:27:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:27:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:28:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:28:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:28:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:28:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:28:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:28:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:28:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:32:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:32:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:32:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:32:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:46:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:46:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:47:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:47:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:47:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:47:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:54:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:54:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:54:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:54:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:54:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:54:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:55:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:56:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:56:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:56:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:57:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 04:57:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:02:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:02:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:04:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:04:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:06:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:06:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:08:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:08:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:10:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-29 05:10:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:20:10 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 03:20:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:20:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:20:36 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 03:20:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:20:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:24:19 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 03:24:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:24:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:24:50 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 03:24:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:24:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:26:07 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(574): HelperCollection->load('Javascript', Array)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(356): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-01 03:26:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:26:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:26:59 Error: [MissingHelperException] Helper class GoogleStaticMapHelper could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(574): HelperCollection->load('GoogleStaticMap', Array)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(356): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-01 03:26:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:26:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:28:27 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:28:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:28:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:28:59 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:28:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:28:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:02 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:29:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:03 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:29:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:03 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:29:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:26 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:29:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:28 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:29:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:29 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-01 03:29:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:37 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 03:29:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:29:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:32:56 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 03:32:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:32:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:32:59 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 03:32:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:32:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:35:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:35:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:35:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:35:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:35:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:35:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:37:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:37:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 03:37:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:30:59 Error: [MissingHelperException] Helper class MapHelper could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(574): HelperCollection->load('Map', Array)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(356): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-01 05:30:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:30:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:34:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:34:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:35:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:35:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:35:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:35:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:36:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:36:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:36:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:36:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:37:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:38:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:38:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:39:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:39:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:40:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:44:06 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(574): HelperCollection->load('Javascript', Array)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(356): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-03-01 05:44:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:44:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:49:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:49:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:49:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:50:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:52:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:52:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:52:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:53:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:54:35 Error: [MissingActionException] Action PagesController::display() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 05:54:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 05:54:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:00:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:00:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:01:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:01:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:01:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:01:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:04:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:05:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:05:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:05:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:05:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:05:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:05:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:09:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:09:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:10:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:10:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:11:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:11:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:15:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:15:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:17:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:17:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:19:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:19:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:21:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:23:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:23:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:23:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:23:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:23:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:23:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:24:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:24:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:25:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:25:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:26:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:26:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:27:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:27:56 Error: [MissingActionException] Action PagesController::mapa() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 06:27:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:27:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:00 Error: [MissingActionException] Action PagesController::home() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 06:28:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:03 Error: [MissingActionException] Action PagesController::home() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 06:28:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:05 Error: [MissingActionException] Action PagesController::mapa() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 06:28:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:07 Error: [MissingActionException] Action PagesController::mapa() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 06:28:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:50 Error: [MissingActionException] Action PagesController::mapa() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 06:28:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:28:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:29:01 Error: [MissingActionException] Action PagesController::mapa() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 06:29:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:29:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:30:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:30:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:33:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:33:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:34:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 06:34:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:57:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:57:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:58:27 Error: [MissingActionException] Action PagesController::home() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 23:58:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:58:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:58:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:58:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:58:44 Error: [MissingActionException] Action PagesController::home() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-01 23:58:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-01 23:58:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:00:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:00:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:01:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:05:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:05:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:06:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:06:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:10:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:10:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:11:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:11:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:13:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:13:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:14:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:14:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:15:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:15:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:15:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:15:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:15:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:15:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:16:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:16:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:17:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:19:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:19:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:19:32 Error: [MissingActionException] Action PagesController::sobre() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-02 00:19:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:19:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:22 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\sobre.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-02 00:20:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:52 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\sobre.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-02 00:20:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:56 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\sobre.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-02 00:20:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:20:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:21:01 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp2012\curso_assando\app\View\Pages\sobre.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\View\View.php(360): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Controller\Controller.php(900): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(111): Controller->render()
+#3 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-03-02 00:21:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:21:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:31:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:31:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:32:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:32:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:32:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:32:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:35:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:35:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:36:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:36:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:37:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:37:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:38:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:38:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:38:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:38:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:46:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:46:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:46:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:46:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:47:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:47:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:47:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:47:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:52:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:52:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:52:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:52:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:53:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:53:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:54:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:54:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:54:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:54:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 00:54:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:06:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:06:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:06:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:06:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:08:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:08:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:08:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:08:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:13 Error: [MissingActionException] Action PagesController::contato() could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp2012\curso_assando\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-03-02 01:13:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:13:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:14:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:15:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:13 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:16:13 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:17:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:17:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:18:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:19:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:19:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:19:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:19:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:19:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:19:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:20:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-03-02 01:20:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\xampp\htdocs\cakephp2012\curso_assando\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
